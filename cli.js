@@ -53,7 +53,7 @@ const main = () => {
     const topic = args.shift()
     if (!url) throw new Error('Specify URL first')
     if (!topic) throw new Error('Topic expected')
-    eventStore(url).publish(topic, stdin)
+    eventStore(url).publish(topic, stdin).subscribe(stdout)
   }
   const doConsume = () => {
     const topic = args.shift()
