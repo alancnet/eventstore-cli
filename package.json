@@ -1,0 +1,20 @@
+{
+  "name": "eventstore-cli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "es": "./cli.js",
+    "eventstore": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alco": "^1.0.0",
+    "eventstore-rx": "^1.0.4",
+    "fifo": "^2.3.0",
+    "lodash": "^4.17.4"
+  }
+}
