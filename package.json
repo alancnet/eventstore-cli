@@ -1,6 +1,6 @@
 {
   "name": "eventstore-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "bin": {
     "es": "./cli.js",
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "alco": "^1.0.0",
+    "alco": "^1.0.1",
     "eventstore-rx": "^1.0.4",
     "fifo": "^2.3.0",
     "lodash": "^4.17.4"
